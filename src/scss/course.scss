@@ -6,14 +6,25 @@
     &__items{
         margin-top: 40px;
         margin-bottom: 100px;
+    }
+
+    .slick-track{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+    }
+
+    .slick-initialized .slick-slide{
+        display: flex;
     }
 
     &__item{
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        &:not(:last-child){
+            margin-right: 60px;
+        }
     }
 
     &__text{

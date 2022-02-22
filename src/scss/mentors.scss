@@ -1,0 +1,45 @@
+.mentors{
+    padding-bottom: 60px;
+    
+    &__title{
+        margin-top: 75px;
+    }
+
+    &__slider{
+        margin-top: 40px;
+    }
+
+    &__descr{
+        max-width: 680px;
+    }
+
+    &__img{
+        width: 340px;
+    }
+
+    &__subtitle{
+        color: #3498db;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    &__text{
+        padding-top: 60px;
+        border-top: solid 1px #f7f7f7;
+        line-height: 22px;
+    }
+
+    &__item{
+        margin-bottom: 20px;
+    }
+
+    .slick-initialized .slick-slide{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .slick-dots li button:before{
+        font-size: 14px;
+    }
+}

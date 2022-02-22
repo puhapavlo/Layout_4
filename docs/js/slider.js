@@ -1,0 +1,1 @@
+$(".reviews__slider").slick({infinite:!0,fade:!0,dots:!0,centerMode:!0,arrows:!1,autoplay:!0,autoSpeed:1e4}),$(".mentors__slider").slick({infinite:!0,fade:!0,dots:!0,centerMode:!0,arrows:!1,autoplay:!0,autoSpeed:1e4}),$(".course__slider").slick({slidesToShow:3,arrows:!1,dots:!1});

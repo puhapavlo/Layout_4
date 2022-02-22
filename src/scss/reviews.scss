@@ -1,0 +1,62 @@
+.reviews{
+    padding-bottom: 40px;
+    &__title{
+        margin-top: 80px;
+    }
+
+    &__item{
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__descr{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__text{
+        width: 885px;
+        text-align: center;
+    }
+
+    &__slider{
+        margin: 0 auto;
+    }
+    
+    &__name{
+        margin-top: 45px;
+        color: #333333;
+    }
+
+    &__profession{
+        font-style: italic;
+        margin-bottom: 115px;
+    }
+
+    &__quote{
+        font-size: 28px;
+        color: #c4c4c4;
+        &:first-child{
+            margin-right: 35px;
+            transform: translateY(-20px);
+        }
+
+        &:last-child{
+            margin-left: 35px;
+            align-self: end;
+            transform: translateY(20px);
+        } 
+    }
+
+    .slick-dots li button:before{
+        font-size: 14px;
+    }
+
+    .slick-initialized .slick-slide{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
