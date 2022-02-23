@@ -21,6 +21,26 @@ $('.mentors__slider').slick({
 $('.course__slider').slick({
     slidesToShow: 3,
     arrows: false,
-    dots: false
+    dots: false,
+    responsive: [
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+                dots: true,
+                infinite: true
+            }
+        },
+
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                dots: true,
+                infinite: true
+            }
+        },
+    ]
+    
 })
 

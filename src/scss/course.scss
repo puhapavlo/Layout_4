@@ -30,7 +30,7 @@
     &__text{
         text-align: center;
         margin-top: 35px;
-        width: 340px;
+        max-width: 340px;
     }
 
     &__subtitle{
@@ -38,5 +38,10 @@
         margin-top: 35px;
         padding-bottom: 20px;
         border-bottom: solid #3498db 2px;
+        text-align: center;
+    }
+
+    &__img{
+        max-width: 100%;
     }
 }
